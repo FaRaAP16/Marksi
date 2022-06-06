@@ -211,6 +211,13 @@ function network.read(client, len)
 if len == nil then len = '*l' end
 local line, err = client.network.socket:receive(len)
 if not err then return line else
+print("\27[36m"..[[                                           
+---------------------------------------------
+|-------------------------------------------|
+|     This Source Was Developed By @Fa_RaAP.|
+|               - Fa_RaAP -                 |
+---------------------------------------------
+]]..'\27[m')
 Config = dofile("config.lua")
 DevId = Config.DevId
 TokenBot = Config.TokenBot
