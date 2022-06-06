@@ -44,17 +44,6 @@ cd .. ;sudo rm -rf luarocks*
 sudo timedatectl set-timezone Asia/Baghdad
 echo -e "\033[0;36m"
 
-echo -e "---------------------------------------------"                          _          _                       
-echo -e "  _ __ ___    __ _  _ __ | | __ ___ (_)"
-echo -e " | '_ ` _ \  / _` || '__|| |/ // __|| |"
-echo -e " | | | | | || (_| || |   |   < \__ \| |"
-echo -e " |_| |_| |_| \__,_||_|   |_|\_\|___/|_|"
-echo -e "|This Source Was Developed By (Fares) @Fa_RaAP.|"
-echo -e "|  This Is The Source Channel @Iraqiatheists1 .   |"
-echo -e "|               - Fa_RaAP -                 |"
-echo -e "---------------------------------------------"
-echo -e "\033[0m"   
-echo -e "\033[0m"                                       
 
 cd $THIS_DIR && sudo chmod +x tg
 lua Marksi.lua
