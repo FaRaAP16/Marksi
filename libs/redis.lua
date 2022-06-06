@@ -211,7 +211,6 @@ function network.read(client, len)
 if len == nil then len = '*l' end
 local line, err = client.network.socket:receive(len)
 if not err then return line else
-
 Config = dofile("config.lua")
 DevId = Config.DevId
 TokenBot = Config.TokenBot
