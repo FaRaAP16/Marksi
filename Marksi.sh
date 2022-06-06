@@ -42,9 +42,6 @@ sudo luarocks install Lua-cURL
 sudo luarocks install luautf8
 cd .. ;sudo rm -rf luarocks*
 sudo timedatectl set-timezone Asia/Baghdad
-echo -e "\033[0;36m"
-
-
 cd $THIS_DIR && sudo chmod +x tg
 lua Marksi.lua
 }
