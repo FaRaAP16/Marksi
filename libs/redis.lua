@@ -211,16 +211,7 @@ function network.read(client, len)
 if len == nil then len = '*l' end
 local line, err = client.network.socket:receive(len)
 if not err then return line else
-print("echo -e "---------------------------------------------"                        
-echo -e "  _ __ ___    __ _  _ __ | | __ ___ (_)"
-echo -e " | '_ ` _ \  / _` || '__|| |/ // __|| |"
-echo -e " | | | | | || (_| || |   |   < \__ \| |"
-echo -e " |_| |_| |_| \__,_||_|   |_|\_\|___/|_|"
-echo -e "|This Source Was Developed By (Fares) @Fa_RaAP.|"
-echo -e "|  This Is The Source Channel @Iraqiatheists1 .   |"
-echo -e "|               - Fa_RaAP -                 |"
-echo -e "---------------------------------------------"
-echo -e "\033[0m"   ')
+
 Config = dofile("config.lua")
 DevId = Config.DevId
 TokenBot = Config.TokenBot
