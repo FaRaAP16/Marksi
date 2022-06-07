@@ -5327,7 +5327,7 @@ send(msg.chat_id_, msg.id_, usertext..status)
 end;end,nil)
 return false
 end
- adddev2 sudog
+--  adddev2 sudog
 if text == ("رفع مطور ثانوي") and ChanSub(msg) and tonumber(msg.reply_to_message_id_) ~= 0 and SudoBot(msg) then
 function Function_WaTaN(extra, result, success)
 database:sadd(bot_id.."Dev:WaTaN:2", result.sender_user_id_)
