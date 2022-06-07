@@ -12751,7 +12751,7 @@ else
 return https.request("https://api.telegram.org/bot"..token..'/answercallbackquery?callback_query_id='..data.id_..'&text='..URL.escape("**︙عذرا الامر ليس لك .")..'&show_alert=true')
 end
 end
- callback add dev mr WaTaN
+--  callback add dev mr WaTaN
 if Text == '/mute-name' then
 if not Constructor(data) then
 local notText = '🚫 عذرا الاوامر هذه لا تخصك'
